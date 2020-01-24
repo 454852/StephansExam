@@ -1,0 +1,36 @@
+h1{
+  text-align:center;
+  top: 80px;
+  font-size: 80px;
+        animation: turn 5s 2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+ @keyframes turn {
+  0%   {  transform: rotate(2deg);}
+  100%   { transform: rotate(-2deg);}
+}
+Body{
+  background-color: red;
+  
+}
+
+#playnow{
+    position: fixed; /* or absolute */
+  top: 50%;
+  left: 40%;
+  background-color: #e7e7e7; color: black;
+border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 66px;
+}
+
+#playnow:hover{
+   -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
