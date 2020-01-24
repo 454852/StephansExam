@@ -34,3 +34,10 @@ border: none;
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+h2{
+  text-align:center;
+}
+p{
+  text-align:center;
+}
